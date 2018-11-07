@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gustav Lindberg Portfolio Site</title>
+  <meta name="description" content="This is the portfolio site of web developer Gustav Lindberg. Please feel free to check in on a regular basis to be sure not to miss on newly added content. ">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="background">
+
+
+    <div class="topnav">
+
+      <div class=navItems>
+        <a href="#about-section">About -</a>
+        <a href="#portfolio-section"> My Work -</a>
+        <a href="#contact-section"> Contact</a>
+      </div>
+    </div>
+
+
+    <div class="centered">
+      <div class="typeit">
+        <h1>HI, I'M GUSTAV LINDBERG - A WEB DEVELOPER FROM SWEDEN.</h1>
+
+      </div>
+    </div>
+  </div>
+  <div class="main-container">
+    <div id=about-section class="flex-item about">
+      <h2 class="sectionTitle">ABOUT ME</h2>
+      <div class="icons">
+        <i class="far fa-grin"></i>
+      </div>
+      <div class="content-text-aligner">
+        <p class="textContentA">Having had three years of experience with BI/Data Warehousing within the Microsoft SQL
+          Server Domain, I now have surrendered to my growing fascination for the world wide web. <br>
+          <br>
+          I am currently fully focused and committed to learning about web development to be able to contribute to
+          develop content of the web, making sure that it keeps enabling people and business in the way that is has
+          done up to this day.
+        </p>
+      </div>
+
+
+    </div>
+
+
+    <div id="portfolio-section" class="flex-item portfolio">
+      <h2 class="sectionTitle">MY WORK</h2>
+      <div class="icons">
+        <i class="fas fa-suitcase"></i>
+      </div>
+      <div class="content-text-aligner">
+        <p class="textContentP">Here's some of the work I've done so far.</p>
+      </div>
+      <div class="image-container">
+        <a target="_blank" href="Gruppuppgift_thumbnail.png">
+          <img src="Gruppuppgift_thumbnail.png" alt="School site image">
+        </a>
+        <a target="_blank" href="the_image_gallery_thumbnail.png">
+          <img src="the_image_gallery_thumbnail.png" alt="An image gallery">
+        </a>
+        <a target="_blank" href="Landing_page_thumbnail.PNG">
+          <img src="Landing_page_thumbnail.PNG" alt="An image of an landing page">
+        </a>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <div id="contact-section" class="flex-item contact">
+      <h2 class="sectionTitle">CONTACT</h2>
+
+      <div class="icons">
+        <i class="far fa-comment-alt"></i>
+      </div>
+      <div class="portfoliotText">
+        <p class="textContentC">Want to reach me? Use this form and I'll get back to you as possible.</p>
+      </div>
+
+
+      <div class="contactForm">
+        <form action="/action_page.php">
+          <div class="row">
+            <div class="col-25">
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row rowBtn">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="email">
+      <i class="far fa-envelope"></i>
+      <p class="footer-text">gustav.lindberg@<br>student.kyh.se</p>
+    </div>
+    <div class="copyright">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/glindberg/"><i class="fab fa-github"></i></a>
+
+      <p class="footer-text">© Gustav Lindberg 2018</p>
+    </div>
+  </div>
+
+  <script src="typeit.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+
+</html>
